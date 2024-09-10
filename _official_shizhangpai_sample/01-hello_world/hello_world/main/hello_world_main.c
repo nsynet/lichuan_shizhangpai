@@ -14,7 +14,7 @@
 
 void app_main(void)
 {
-    printf("Hello world!");
+    printf("Hello world4!");
     /* Print chip information */
     esp_chip_info_t chip_info;
     uint32_t flash_size;

@@ -1,5 +1,11 @@
-# lichuan_shizhangpai
-立创-实战派开发板上使用的代码
+## 内容 
+
+文件夹|内容简介
+---|:--:
+_official_shizhangpai_sample  |  立创-实战派开发板
+  |  
+  |  
+
 
 ## 开发环境
 
@@ -27,4 +33,7 @@ vscode直接打开<hello_world2_uart_esp_idf>，然后点击如下按钮一气�
 
 实战派连接到一根USB-A的数据线,如下所示:
 ![](doc/shizhangpai.jpg )
-vscode直接打开<hello_world3_jtag_esp_idf>，仍然如上（其中代码部分的调试器的配置是 launch.json）,升级时会提示打开openocd,点击确认即可.
+vscode直接打开<hello_world3_jtag_esp_idf>，仍然如上（其中代码部分的调试器的配置是 launch.json）,升级时会提示打开openocd,点击确认即可,会完成JTAG升级.
+
+点击如下启动单步调试:
+![](doc/debugger.png )
